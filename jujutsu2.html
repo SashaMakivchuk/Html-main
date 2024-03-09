@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<header>
+<h3>Contact us</h3>
+</header>
+<main>
+<form action="/page.php" method="post">
+    <label for="num">Phone number</label><br>
+    <input type="tel" name="num" id="num" placeholder="+38 012 345 6789" required><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" placeholder="your email@gmail.com" required><br>
+    <label for="why">Reason to contact</label>
+    <select name="Why contact?" id="why" required>
+        <option value="0">...</option>
+        <option value="1">Підтримка</option>
+        <option value="2">Побажання</option>
+        <option value="3">Скарна</option>
+        <option value="4">Тощо</option>
+    </select><br>
+    
+    <textarea name="message" rows="10" cols="30" required>
+    </textarea><br>
+    <label for="file">Attach a file</label><br>
+    <input type="file" name="file" id="file" accept=".pdf, .doc, .docx, .txt, .png, .jpg"><br>
+    <label for="email2">By email</label><br>
+    <input type="radio" id="email2" name="how to contact" value="email"> <br>
+    <label for="phone">By phone number</label><br>
+    <input type="radio" id="phone" name="how to contact" value="phone"><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+
+</main>
+<footer>
+
+    <a href="D:\Visual Studio\Jujutu Kaisen.html">Back to page</a><br>
+    <a href="D:\Visual Studio\jujutsu.html">Registration</a>
+</footer>
+</body>
+</html>
