@@ -139,6 +139,15 @@ a:hover {
 
 
 }
+@media only screen and (max-width: 600px){
+  header{
+    width: 75%;
+  }
+  #Foto1{
+    width: 100%;
+  }
+
+}
 
 
 
